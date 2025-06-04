@@ -1,5 +1,12 @@
 [
     {
+        "name": "Hoe Installer ik een modpack van SurGOI?",
+        "version": " ANY",
+        "mcVersion": "ANY",
+        "imageUrl": "./assets/img/paper.jpg",
+        "downloadUrl": "https://github.com/SurGOI/MC-Modpacks/releases/download/(prismlaucnher-v1.0.0)install_modpack/PrismLauncher.Instaleren.van.een.modpack.txt"
+    },
+    {
         "name": "Omi & Evi Samen Spelen - (dieren Editie)",
         "version": "1.0.0",
         "mcVersion": "1.21.5",
