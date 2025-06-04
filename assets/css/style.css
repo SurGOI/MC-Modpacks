@@ -3,7 +3,7 @@ body {
     font-family: 'Inter', sans-serif;
     /* Minecraft Dirt Block background for the main content area */
     background-color: #6B4E31; /* Fallback dirt color */
-    background-image: url("/assets/img/dirt.png"); /* Dirt Block image */
+    background-image: url("./assets/img/dirt.png"); /* Dirt Block image */
     background-repeat: repeat;
     background-size: 128px 128px; /* Size of the repeating tile */
     color: #E0E0E0; /* Light text for readability on dark background */
@@ -12,7 +12,7 @@ body {
 /* Header specific background for the Minecraft Side Block */
 header {
     background-color: #4A3F30; /* Fallback side block color */
-    background-image: url('/assets/img/moss_block.png'); /* Minecraft Side Block image */
+    background-image: url('./assets/img/moss_block.png'); /* Minecraft Side Block image */
     background-repeat: repeat;
     background-size: 128px 128px; /* Size of the repeating tile */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Add shadow to header */
@@ -24,7 +24,7 @@ header {
 /* Footer specific background, same as header */
 footer {
     background-color: #4A3F30; /* Fallback side block color */
-    background-image: url('/assets/img/moss_block.png'); /* Minecraft Side Block image */
+    background-image: url('./assets/img/moss_block.png'); /* Minecraft Side Block image */
     background-repeat: repeat;
     background-size: 128px 128px; /* Size of the repeating tile */
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.4); /* Shadow pointing upwards */
