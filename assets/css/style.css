@@ -1,0 +1,17 @@
+/* Custom CSS for consistent card height and image fitting */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f2f5; /* Light gray background */
+}
+.modpack-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Pushes content to top/bottom */
+    height: auto; /* Allow height to adjust based on content, but ensure consistency via image/padding */
+    text-decoration: none; /* Remove underline from link */
+    color: inherit; /* Inherit text color */
+}
+.modpack-card-image {
+    height: 192px; /* Fixed height for images (48 * 4 = 192px) */
+    object-fit: cover; /* Ensures images cover the area without distortion */
+}
